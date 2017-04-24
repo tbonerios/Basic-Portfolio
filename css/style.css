@@ -1,0 +1,101 @@
+
+
+* {
+  text-align: center;
+}
+
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+  margin:0;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 24px;
+} 
+
+header {
+  float:left;
+  padding: 10px;
+  width: 20%;
+  margin-left: 10%;
+  color: #fff;
+  background: #4aaaa5;
+
+}
+
+.container {
+  width: auto;
+}
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    margin-top: 50px;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+img.styledImage {
+    left: 0px;
+    top: 0px;
+
+  background: #ccc;
+}
+
+
+#full {
+   clear: both;
+   overflow:auto;
+   width:100%;
+   background-image: url("../images/paper_fibers_@2X.png");
+   height: 500px;
+   width: 100%;
+}
+
+#division {
+  background: #4aaaa5;
+  padding: 10px;
+}
+
+#whiteBox {
+  background-color: white;
+  float:left;
+}
+
+aside {
+  float: left;
+  background: blue;
+
+}
+
+footer {
+
+  padding: 20px;
+  clear: both;
+  background: #ccc;
+}
